@@ -31,8 +31,17 @@ class MainActivity : AppCompatActivity() {
                     Toast.makeText(this@MainActivity, "Selecione pelo menos uma opção", Toast.LENGTH_SHORT).show()
                     return@setOnClickListener
                 }
-                // Definir tamanho da senha
-                val tamanhoSenha = 12
+                // Obter tamanho da senha do EditText
+                val tamanhoSenhaInput = escolherTamanho.text.toString().toIntOrNull()
+                val tamanhoSenha = tamanhoSenhaInput ?: 12 // Tamanho padrão
+
+                // Validar o tamanho mínimo da senha
+                if (tamanhoSenha < 8) {
+                    Toast.makeText(this@MainActivity, "Tamanho mínimo da senha é 8", Toast.LENGTH_SHORT).show()
+                    return@setOnClickListener
+                }
+
+                // Gerar senha aleatória com o tamanho especificado
                 val senhaAleatoria = buildString {
                     repeat(tamanhoSenha) {
                         val indiceAleatorio = Random.nextInt(0, opcoesEscolhidas.size)
