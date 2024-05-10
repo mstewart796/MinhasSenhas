@@ -6,4 +6,5 @@
     <string name="numero">Números (0-9)</string>
     <string name="maiuscula">Maiúscula (A-Z)</string>
     <string name="especial">Caracteres Especiais</string>
+    <string name="gerar">Gerar Senhas</string>
 </resources>

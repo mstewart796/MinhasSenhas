@@ -29,6 +29,8 @@
                 android:layout_marginTop="20dp"
                 android:gravity="center"
                 android:text="@string/gerador"
+                android:textColor="#5AB2FF"
+                android:textStyle="bold"
                 android:textSize="25sp"
                 app:layout_constraintBaseline_toTopOf="parent"/>
 
@@ -93,7 +95,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="55dp"
                 app:cornerRadius="10dp"
-                android:text="Gera Senha"
+                android:text="@string/gerar"
+                android:textColor="#FFF9D0"
                 android:textSize="15sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 android:layout_marginBottom="20dp"
