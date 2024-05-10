@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">MinhasSenhas</string>
+    <string name="gerador">Meu Gerador de Senhas</string>
+    <string name="senha">Senha</string>
+    <string name="minuscula">Minúscula (a-z)</string>
+    <string name="numero">Números (0-9)</string>
+    <string name="maiuscula">Maiúscula (A-Z)</string>
+    <string name="especial">Caracteres Especiais</string>
 </resources>

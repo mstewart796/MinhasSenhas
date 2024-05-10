@@ -23,12 +23,12 @@
             android:layout_height="wrap_content">
 
             <TextView
-                android:id="@+id/tvNomeDoApp"
+                android:id="@+id/tvMinhasSenhas"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:gravity="center"
-                android:text="Meu Gerador de Senhas"
+                android:text="@string/gerador"
                 android:textSize="25sp"
                 app:layout_constraintBaseline_toTopOf="parent"/>
 
@@ -39,20 +39,20 @@
                 android:layout_marginHorizontal="20dp"
                 android:layout_marginTop="15dp"
                 android:gravity="center"
-                android:hint="senha"
+                android:hint="@string/senha"
                 android:textSize="17sp"
                 android:background="@drawable/desenha_aresta"
                 android:drawableEnd="@drawable/ic_copiar"
                 android:paddingHorizontal="15dp"
                 android:textIsSelectable="true"
-                app:layout_constraintTop_toBottomOf="@id/tvNomeDoApp"/>
+                app:layout_constraintTop_toBottomOf="@id/tvMinhasSenhas"/>
 
             <CheckBox
                 android:id="@+id/caixaMinuscula"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:text="Minúscula (a-z)"
+                android:text="@string/minuscula"
                 android:checked="true"
                 android:buttonTint="#5AB2FF"
                 app:layout_constraintStart_toStartOf="@id/tvSenha"
@@ -63,7 +63,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
-                android:text="Números (0-9)"
+                android:text="@string/numero"
                 android:buttonTint="#5AB2FF"
                 app:layout_constraintStart_toStartOf="@id/caixaMinuscula"
                 app:layout_constraintTop_toBottomOf="@id/caixaMinuscula"/>
@@ -72,7 +72,7 @@
                 android:id="@+id/caixaMaiuscula"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Maiúscula (A-Z)"
+                android:text="@string/maiuscula"
                 android:buttonTint="#5AB2FF"
                 app:layout_constraintEnd_toEndOf="@id/tvSenha"
                 app:layout_constraintStart_toEndOf="@id/caixaMinuscula"
@@ -83,7 +83,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
-                android:text="Caracteres Especiais"
+                android:text="@string/especial"
                 android:buttonTint="#5AB2FF"
                 app:layout_constraintStart_toStartOf="@id/caixaMaiuscula"
                 app:layout_constraintTop_toBottomOf="@id/caixaMaiuscula"/>
