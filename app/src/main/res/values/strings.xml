@@ -7,4 +7,6 @@
     <string name="maiuscula">Maiúscula (A-Z)</string>
     <string name="especial">Caracteres Especiais</string>
     <string name="gerar">Gerar Senhas</string>
+    <string name="tamanhoText">Tamanho da Senha:</string>
+    <string name="tamanhoDigito">12</string>
 </resources>

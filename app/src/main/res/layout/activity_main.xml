@@ -40,7 +40,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="55dp"
                 android:layout_marginHorizontal="20dp"
-                android:layout_marginTop="15dp"
+                android:layout_marginTop="30dp"
                 android:gravity="center"
                 android:fontFamily="@font/ubuntusans"
                 android:hint="@string/senha"
@@ -69,6 +69,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/ubuntusans"
                 android:text="@string/maiuscula"
+                android:checked="true"
                 android:buttonTint="#5AB2FF"
                 app:layout_constraintEnd_toEndOf="@id/tvSenha"
                 app:layout_constraintStart_toEndOf="@id/caixaMinuscula"
@@ -81,6 +82,7 @@
                 android:layout_marginTop="5dp"
                 android:fontFamily="@font/ubuntusans"
                 android:text="@string/numero"
+                android:checked="true"
                 android:buttonTint="#5AB2FF"
                 app:layout_constraintStart_toStartOf="@id/caixaMinuscula"
                 app:layout_constraintTop_toBottomOf="@id/caixaMinuscula"/>
@@ -97,6 +99,32 @@
                 app:layout_constraintStart_toStartOf="@id/caixaMaiuscula"
                 app:layout_constraintTop_toBottomOf="@id/caixaMaiuscula"/>
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/ubuntusans"
+                android:gravity="right"
+                android:paddingTop="5dp"
+                android:text="@string/tamanhoText"
+                app:layout_constraintStart_toStartOf="@id/caixaNumeros"
+                app:layout_constraintTop_toBottomOf="@id/caixaNumeros" />
+
+            <EditText
+                android:id="@+id/escolherTamanho"
+                android:inputType="numberDecimal"
+                android:gravity="center_horizontal"
+                android:paddingTop="0dp"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:fontFamily="@font/ubuntusans"
+                android:layout_height="wrap_content"
+                android:text="@string/tamanhoDigito"
+                android:hint="Digite o tamanho"
+                app:layout_constraintStart_toStartOf="@id/caixaEspecial"
+                app:layout_constraintTop_toBottomOf="@id/caixaEspecial"/>
+
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/butaoGerador"
                 android:layout_width="match_parent"
@@ -111,7 +139,7 @@
                 android:layout_marginHorizontal="20dp"
                 android:backgroundTint="#5AB2FF"
                 app:layout_constraintTop_toBottomOf="@id/caixaEspecial"
-                android:layout_marginTop="20dp"/>
+                android:layout_marginTop="60dp"/>
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>
