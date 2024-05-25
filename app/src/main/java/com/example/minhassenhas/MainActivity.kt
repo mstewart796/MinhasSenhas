@@ -3,6 +3,7 @@ package com.example.minhassenhas
 import android.content.ClipData
 import android.content.ClipboardManager
 import android.content.Context
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
@@ -59,5 +60,10 @@ class MainActivity : AppCompatActivity() {
                 Toast.makeText(this@MainActivity, "Copiado!", Toast.LENGTH_SHORT).show()
             }
         }
+        binding.butaoSalvarSenhas.setOnClickListener {
+            val intent = Intent(this, RegisterActivity::class.java)
+            startActivity(intent)
+        }
     }
+
 }
