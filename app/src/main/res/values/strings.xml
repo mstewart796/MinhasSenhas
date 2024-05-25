@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">MinhasSenhas</string>
     <string name="gerador">Meu Gerador de Senhas</string>
+    <string name="listaDeSenhas">Minha Lista de Senhas</string>
     <string name="senha">Senha Gerada</string>
     <string name="minuscula">Minúscula (a-z)</string>
     <string name="numero">Números (0-9)</string>
@@ -9,4 +10,9 @@
     <string name="gerar">Gerar Senhas</string>
     <string name="tamanhoText">Tamanho da Senha:</string>
     <string name="tamanhoDigito">12</string>
+    <string name="adicionarSenha">Adicionar Senha</string>
+    <string name="nomeDoSite">Nome do Site:</string>
+    <string name="digitarNomeDoSite">Digitar O Nome Do Site</string>
+    <string name="salvarSenha">Salvar Senha</string>
+    <string name="voltar">Voltar</string>
 </resources>
