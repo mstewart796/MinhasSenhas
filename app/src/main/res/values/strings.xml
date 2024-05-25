@@ -7,12 +7,20 @@
     <string name="numero">Números (0-9)</string>
     <string name="maiuscula">Maiúscula (A-Z)</string>
     <string name="especial">Caracteres Especiais</string>
-    <string name="gerar">Gerar Senhas</string>
+    <string name="gerar">Gerar Senha</string>
     <string name="tamanhoText">Tamanho da Senha:</string>
     <string name="tamanhoDigito">12</string>
     <string name="adicionarSenha">Adicionar Senha</string>
     <string name="nomeDoSite">Nome do Site:</string>
+    <string name="usuarioDoSite">Usuário:</string>
+    <string name="senhaDoSite">Senha:</string>
     <string name="digitarNomeDoSite">Digitar O Nome Do Site</string>
+    <string name="digitarNomeDoUsuario">Digitar O Nome Do Usuário</string>
+    <string name="digitarSenha">Digitar A Senha</string>
     <string name="salvarSenha">Salvar Senha</string>
+    <string name="atualizarSenha">Atualizar Senha</string>
+    <string name="atualizarApagarSenha">Atualizar ou Apagar Senha</string>
+    <string name="apagarSenha">Apagar Senha</string>
     <string name="voltar">Voltar</string>
+    <string name="verSenha">Ver Lista de Senhas</string>
 </resources>
