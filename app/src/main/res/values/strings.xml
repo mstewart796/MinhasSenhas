@@ -18,7 +18,7 @@
     <string name="digitarNomeDoUsuario">Digitar O Nome Do Usuário</string>
     <string name="digitarSenha">Digitar A Senha</string>
     <string name="salvarSenha">Salvar Senha</string>
-    <string name="atualizarSenha">Atualizar Senha</string>
+    <string name="atualizarSenha">Atualizar ou Apagar Senha</string>
     <string name="atualizarApagarSenha">Atualizar ou Apagar Senha</string>
     <string name="apagarSenha">Apagar Senha</string>
     <string name="voltar">Voltar</string>
