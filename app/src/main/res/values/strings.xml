@@ -14,9 +14,9 @@
     <string name="nomeDoSite">Nome do Site:</string>
     <string name="usuarioDoSite">Usuário:</string>
     <string name="senhaDoSite">Senha:</string>
-    <string name="digitarNomeDoSite">Digitar O Nome Do Site</string>
-    <string name="digitarNomeDoUsuario">Digitar O Nome Do Usuário</string>
-    <string name="digitarSenha">Digitar A Senha</string>
+    <string name="digitarNomeDoSite">Digitar o nome do site</string>
+    <string name="digitarNomeDoUsuario">Digitar o nome do usuário</string>
+    <string name="digitarSenha">Digitar a senha</string>
     <string name="salvarSenha">Salvar Senha</string>
     <string name="atualizarSenha">Atualizar ou Apagar Senha</string>
     <string name="atualizarApagarSenha">Atualizar ou Apagar Senha</string>
