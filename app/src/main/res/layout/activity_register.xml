@@ -152,8 +152,6 @@
                 app:layout_constraintTop_toBottomOf="@id/butaoRegister"
                 android:layout_marginTop="20dp"/>
 
-
-
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </com.google.android.material.card.MaterialCardView>

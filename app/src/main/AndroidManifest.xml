@@ -25,6 +25,14 @@
             android:name=".RegisterActivity"
             android:exported="false"
             android:label="RegisterActivity" />
+        <activity
+            android:name=".UpdateActivity"
+            android:exported="false"
+            android:label="UpdateActivity" />
+        <activity
+            android:name=".DataListActivity"
+            android:exported="false"
+            android:label="DataListActivity" />
     </application>
 
 </manifest>

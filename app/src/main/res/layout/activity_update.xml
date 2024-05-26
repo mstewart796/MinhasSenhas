@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#A0DEFF"
-    tools:context=".MainActivity">
+    tools:context=".UpdateActivity">
 
     <com.google.android.material.card.MaterialCardView
         android:layout_width="match_parent"
@@ -28,7 +28,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:gravity="center"
-                android:text="@string/atualizarSenha"
+                android:text="@string/atualizarApagarSenha"
                 android:fontFamily="@font/robotobold"
                 android:textColor="#5AB2FF"
                 android:textSize="25sp"
