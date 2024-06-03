@@ -62,10 +62,7 @@ class MainActivity : AppCompatActivity() {
                 Toast.makeText(this@MainActivity, "Copiado!", Toast.LENGTH_SHORT).show()
             }
         }
-        binding.butaoAtualizarSenhas.setOnClickListener {
-            val intent = Intent(this, UpdateActivity::class.java)
-            startActivity(intent)
-        }
+
         binding.butaoSalvarSenhas.setOnClickListener {
             val intent = Intent(this, RegisterActivity::class.java)
             startActivity(intent)
