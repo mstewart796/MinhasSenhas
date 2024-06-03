@@ -42,13 +42,14 @@ class DatabaseController(context: Context) {
         return cursor
     }
 
-    fun updateDataBySite(site: String, newUsuario: String, newSenha: String) {
+    fun updateDataBySite(oldSite: String, newSite: String, newUsuario: String, newSenha: String) {
         val values = ContentValues()
+        values.put(CreateDB.SITE, newSite)
         values.put(CreateDB.USUARIO, newUsuario)
-        values.put(CreateDB.SENHA, newSenha) // Assuming no hashing for simplicity
+        values.put(CreateDB.SENHA, newSenha)
 
         val where = "${CreateDB.SITE} = ?"
-        val whereArgs = arrayOf(site)
+        val whereArgs = arrayOf(oldSite)
 
         writableDatabase.update(CreateDB.TABLE, values, where, whereArgs)
     }
