@@ -41,8 +41,9 @@ class CustomCursorAdapter(private var cursor: Cursor) :
         }
 
         holder.itemView.setOnClickListener {
+            val site = cursor.getString(cursor.getColumnIndexOrThrow(CreateDB.SITE))
             val intent = Intent(holder.itemView.context, UpdateActivity::class.java)
-            intent.putExtra("TAG_CODE", site)
+            intent.putExtra("SITE_KEY", site)
             holder.itemView.context.startActivity(intent)
         }
     }

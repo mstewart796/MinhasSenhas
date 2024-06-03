@@ -28,10 +28,10 @@ class UpdateActivity : AppCompatActivity() {
             val user = binding.etUser.text.toString()
             val senha = binding.etSenha.text.toString()
             // TODO: Add validation and registration logic here
-            }
+        }
         binding.butaoVoltar.setOnClickListener {
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
-            }
         }
+    }
 }
