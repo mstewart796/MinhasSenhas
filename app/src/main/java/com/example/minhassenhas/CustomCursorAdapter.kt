@@ -28,10 +28,10 @@ class CustomCursorAdapter(private var cursor: Cursor) :
         holder.binding.siteTextView.text = site
         holder.binding.userTextView.text = user
 
-        // Initialize with masked password
+        // Inicializar com senha escondida
         holder.binding.senhaTextView.text = "*".repeat(senha.length)
 
-        // Toggle password visibility on click (optional)
+        // Alternar a visibilidade da senha ao clicar
         holder.binding.senhaTextView.setOnClickListener {
             if (holder.binding.senhaTextView.text.toString() == "*".repeat(senha.length)) {
                 holder.binding.senhaTextView.text = senha
